@@ -1,11 +1,12 @@
 :root {
-    --primary: #2c3e50;
-    --accent: #d35400;
-    --bg: #ecf0f1;
+    --primary: #2e4d31; /* GN Big Sky Blue alternative / Pullman Green */
+    --accent: #f39c12;  /* GN Omaha Orange / Gold */
+    --bg: #f4f4f4;
     --card-bg: #ffffff;
+    --text: #2c3e50;
 }
 
-body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); margin: 0; color: #333; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); margin: 0; color: var(--text); }
 
 header { background: var(--primary); color: white; padding: 1rem; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
 .header-content { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; gap: 15px; }
@@ -15,17 +16,31 @@ header { background: var(--primary); color: white; padding: 1rem; position: stic
 
 .stats-bar { max-width: 1200px; margin: 10px auto; padding: 0 20px; font-size: 0.9rem; color: #7f8c8d; font-weight: 600; text-transform: uppercase; }
 
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto; }
+.group-section { margin-bottom: 40px; }
+.group-header { 
+    background: #e67e22; /* GN Accent */
+    color: white; 
+    padding: 12px 20px; 
+    border-radius: 8px; 
+    margin: 20px auto; 
+    max-width: 1200px; 
+    font-size: 1.3rem;
+    box-shadow: 2px 2px 0px var(--primary);
+}
 
-.loco-card { background: var(--card-bg); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); position: relative; border: 1px solid #ddd; }
+.group-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; padding: 0 20px; max-width: 1200px; margin: 0 auto; }
+
+.loco-card { background: var(--card-bg); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); position: relative; border: 1px solid #ddd; transition: transform 0.2s; }
+.loco-card:hover { transform: translateY(-3px); }
 .loco-card.filtered-out { display: none; }
 
 .loco-img { width: 100%; height: 200px; background: #bdc3c7; object-fit: cover; cursor: pointer; display: block; }
 .loco-info { padding: 15px; }
 
-.btn-primary { background: var(--accent); color: white; padding: 10px 20px; border-radius: 25px; cursor: pointer; border: none; font-weight: bold; }
+.btn-primary { background: var(--primary); color: white; padding: 10px 20px; border-radius: 25px; cursor: pointer; border: none; font-weight: bold; }
+.btn-primary:hover { background: #1e3321; }
 
-.modal { position: fixed; z-index: 200; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: flex; align-items: center; justify-content: center; }
+.modal { position: fixed; z-index: 200; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); display: flex; align-items: center; justify-content: center; }
 .modal-content { background: white; padding: 30px; border-radius: 15px; width: 90%; max-width: 650px; max-height: 85vh; overflow-y: auto; position: relative; }
 .hidden { display: none; }
 .close-btn { position: absolute; top: 15px; right: 20px; font-size: 32px; cursor: pointer; color: #999; }
@@ -34,31 +49,8 @@ header { background: var(--primary); color: white; padding: 1rem; position: stic
 .function-list li { background: #f8f9fa; padding: 10px; border-radius: 6px; border-left: 5px solid var(--accent); font-size: 0.95rem; display: flex; gap: 10px; }
 .function-list strong { color: var(--primary); min-width: 35px; }
 
-.group-section {
-    margin-bottom: 40px;
-}
-
-.group-header {
-    background: var(--primary);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    margin: 20px auto;
-    max-width: 1200px;
-    font-size: 1.2rem;
-}
-
-/* Updated grid selector to target the grids within sections */
-.group-grid { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
-    gap: 20px; 
-    padding: 0 20px; 
-    max-width: 1200px; 
-    margin: 0 auto; 
-}
-
 @media (max-width: 600px) { 
     .header-content { flex-direction: column; }
     .function-list { grid-template-columns: 1fr; }
+    #searchInput { width: 100%; }
 }

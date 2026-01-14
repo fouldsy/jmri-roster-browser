@@ -1,8 +1,14 @@
+/**
+ * LocoGraph PWA - Core Logic
+ * Handles JMRI XML Parsing, Roster Grouping, and Offline Photo Storage
+ */
+
 const db = new Dexie("LocoRosterDB");
 db.version(1).stores({ photos: 'id' });
 
 let locomotiveFiles = new Map();
 
+// Folder Upload & Indexing
 document.getElementById('folderInput').addEventListener('change', async (e) => {
     const files = Array.from(e.target.files);
     const rosterFile = files.find(f => f.name.toLowerCase() === 'roster.xml');
@@ -19,15 +25,7 @@ document.getElementById('folderInput').addEventListener('change', async (e) => {
     renderRoster(rosterText);
 });
 
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        // Using './sw.js' ensures it looks in the current folder, not the domain root
-        navigator.serviceWorker.register('./sw.js')
-            .then(reg => console.log('Service Worker registered!', reg))
-            .catch(err => console.log('Service Worker registration failed', err));
-    });
-}
-
+// Search and Filter with Group Header visibility logic
 function filterRoster() {
     const query = document.getElementById('searchInput').value.toLowerCase();
     const cards = document.querySelectorAll('.loco-card');
@@ -38,7 +36,6 @@ function filterRoster() {
         card.classList.toggle('filtered-out', !text.includes(query));
     });
 
-    // Hide group headings if all cards inside are filtered out
     sections.forEach(section => {
         const hasVisibleCards = section.querySelectorAll('.loco-card:not(.filtered-out)').length > 0;
         section.style.display = hasVisibleCards ? 'block' : 'none';
@@ -52,22 +49,20 @@ function updateCount() {
     document.getElementById('locoCount').innerText = visibleCards;
 }
 
+// Render by Roster Group
 function renderRoster(xmlString) {
     const parser = new DOMParser();
     const xml = parser.parseFromString(xmlString, "text/xml");
     const grid = document.getElementById('rosterGrid');
     grid.innerHTML = '';
 
-    // 1. Get Group Names
     const groupNodes = xml.querySelectorAll("rosterGroup group");
     const groupNames = Array.from(groupNodes).map(g => g.textContent);
     
-    // 2. Prepare Group Buckets
     const groups = {};
     groupNames.forEach(name => groups[name] = []);
     groups["Other"] = [];
 
-    // 3. Sort Locomotives into Buckets
     const entries = xml.querySelectorAll("locomotive");
     entries.forEach(entry => {
         let assigned = false;
@@ -85,11 +80,9 @@ function renderRoster(xmlString) {
                 }
             }
         });
-
         if (!assigned) groups["Other"].push(entry);
     });
 
-    // 4. Render Sections
     Object.keys(groups).forEach(groupName => {
         if (groups[groupName].length === 0) return;
 
@@ -119,13 +112,12 @@ function renderRoster(xmlString) {
             groupGrid.appendChild(card);
             loadSavedPhoto(id);
         });
-
         grid.appendChild(section);
     });
-
     updateCount();
 }
 
+// Detailed View Logic
 function showDetails(fileName) {
     const content = locomotiveFiles.get(fileName);
     if (!content) return alert("Loco file not found.");
@@ -212,3 +204,8 @@ async function loadSavedPhoto(id) {
 
 function closeModal() { document.getElementById('modal').classList.add('hidden'); }
 window.onclick = function(e) { if (e.target.id == 'modal') closeModal(); }
+
+// Register Service Worker
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));
+}
