@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JMRI roster browser</title>
+    <title>LocoGraph Roster</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
@@ -11,24 +11,20 @@
 <body>
     <header>
         <div class="header-content">
-            <h1>JMRI roster browser</h1>
+            <h1>LocoGraph</h1>
             <div class="header-actions">
-                <input type="text" id="searchInput" placeholder="Search for loco or roadname" onkeyup="filterRoster()">
-                <label for="folderInput" class="btn-primary">📁 Load JMRI folder</label>
-                <input type="file" id="folderInput" webkitdirectory directory multiple hidden>
+                <input type="text" id="searchInput" placeholder="Search ID or Road..." onkeyup="filterRoster()">
             </div>
         </div>
     </header>
 
     <main id="app">
         <div class="stats-bar">
-            Showing <span id="locoCount">0</span> locomotive(s)
+            <span id="status">Loading...</span> | 
+            <span id="locoCount">0</span> Locos | 
+            <span id="lastUpdated" style="font-style: italic;"></span>
         </div>
-        <div id="rosterGrid" class="grid">
-            <div class="welcome-message">
-                <p>Select your JMRI "roster" folder to begin.</p>
-            </div>
-        </div>
+        <div id="rosterGrid" class="grid"></div>
     </main>
 
     <div id="modal" class="modal hidden">

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'locograph-v1';
+const CACHE_NAME = 'jmri-roster-browser-v1';
 const ASSETS = [
   './',
   './index.html',
@@ -6,6 +6,7 @@ const ASSETS = [
   './app.js',
   './manifest.json',
   './icon-192.png',
+  './roster/roster.xml',
   'https://unpkg.com/dexie/dist/dexie.js'
 ];
 
