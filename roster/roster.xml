@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
+<roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
+  <!--Written by JMRI version 5.12+Rc5bd588235 on Wed Dec 31 16:35:23 CST 2025-->
+  <roster>
+    <locomotive id="AMTK #2118" fileName="AMTK__2118.xml" roadNumber="2118" roadName="Amtrak" mfg="Kato" owner="Iain Foulds" model="SC-44 (Surfliner)" dccAddress="2118" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-24T01:46:56.866+00:00</dateUpdated>
+      <decoder model="DN163K4A" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="2118" longaddress="yes" />
+        <number>2118</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-24T02:06:05.314+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>383</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="BNSF #5953" fileName="BNSF__5953.xml" roadNumber="5953" roadName="BNSF" mfg="Kato" owner="Iain Foulds" model="GE ES44AC" dccAddress="5953" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-24T02:09:51.879+00:00</dateUpdated>
+      <decoder model="DN147K1C" family="Economy Series 7 with FX3, silent" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="5953" longaddress="yes" />
+        <number>5953</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="GN #229" fileName="GN__229.xml" roadNumber="229" roadName="Great Northern" mfg="Atlas" owner="Iain Foulds" model="Alco RS-3" dccAddress="229" comment="" developerID="-1" manufacturerID="153" productID="22" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.630+00:00</dateUpdated>
+      <decoder model="CN" family="Sep 2018" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="229" longaddress="yes" />
+        <number>229</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-10-26T18:32:43.214+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>469</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #273B" fileName="GN__273B.xml" roadNumber="273B" roadName="Great Northern" mfg="Intermountain" owner="Iain Foulds" model="EMD F7A" dccAddress="2732" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.631+00:00</dateUpdated>
+      <decoder model="DN166I1C" family="Series 6 with FX3, silent, improved BEMF" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="2732" longaddress="yes" />
+        <number>2732</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #281B" fileName="GN__281B.xml" roadNumber="281B" roadName="Great Northern" mfg="Intermountain" owner="Iain Foulds" model="F7B" dccAddress="2812" comment="" developerID="-1" manufacturerID="151" productID="33554590" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-04T02:47:10.244+00:00</dateUpdated>
+      <decoder model="LokSound 5 micro DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="2812" longaddress="yes" />
+        <number>2812</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-04T02:58:52.315+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>257</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #308" fileName="GN__308.xml" roadNumber="308" roadName="Great Northern" mfg="Intermountain" owner="Iain Foulds" model="EMD F7B" dccAddress="3088" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.631+00:00</dateUpdated>
+      <decoder model="DN166I1C" family="Series 6 with FX3, silent, improved BEMF" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3088" longaddress="yes" />
+        <number>3088</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #317B" fileName="GN__317B.xml" roadNumber="317B" roadName="Great Northern" mfg="Intermountain" owner="Iain Foulds" model="EMD F7B" dccAddress="3172" comment="" developerID="-1" manufacturerID="151" productID="33554605" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-03T23:47:15.648+00:00</dateUpdated>
+      <decoder model="LokPilot 5 Micro Next18 DCC" family="ESU LokPilot 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="3172" longaddress="yes" />
+        <number>3172</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-04T03:09:24.265+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>955</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #3206" fileName="GN__3206.xml" roadNumber="3206" roadName="Great Northern" mfg="Broadway Limted" owner="Iain Foulds" model="USRA Heavy Mikado" dccAddress="3206" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-27T01:50:59.711+00:00</dateUpdated>
+      <decoder model="Steam" family="Paragon 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3206" longaddress="yes" />
+        <number>3206</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Whistle</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Air Pump</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Blow Down/Chuff Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Water Fill/Chuff Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Shovel Coal</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Water Injector</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Passenger Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Freight Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Whistle</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #351B" fileName="GN__351B.xml" roadNumber="351B" roadName="Great Northern" mfg="Broadway Limited" owner="Iain Foulds" model="EMD F3B" dccAddress="351" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T03:44:52.522+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="351" longaddress="yes" />
+        <number>351</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #352" fileName="GN__352.xml" roadNumber="352" roadName="Great Northern" mfg="Broadway Limited" owner="Iain Foulds" model="EMD F3A" dccAddress="352" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T03:23:27.797+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="352" longaddress="yes" />
+        <number>352</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #444A" fileName="GN__4441.xml" roadNumber="444A" roadName="Great Northern" mfg="Kato" owner="Iain Foulds" model="EMD F7A" dccAddress="4441" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-12-31T21:34:11.580+00:00</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="4441" longaddress="yes" />
+        <number>4441</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="GN #444B" fileName="GN__444B.xml" roadNumber="444B" roadName="Great Northern" mfg="Kato" owner="Iain Foulds" model="EMD F7B" dccAddress="4442" comment="" developerID="-1" manufacturerID="151" productID="33554590" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-12-31T22:35:23.955+00:00</dateUpdated>
+      <decoder model="LokSound 5 micro DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="4442" longaddress="yes" />
+        <number>4442</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
+    <locomotive id="GN #444C" fileName="GN__444C.xml" roadNumber="444C" roadName="Great Northern" mfg="Kato" owner="Iain Foulds" model="EMD F7B" dccAddress="4443" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-12-31T22:35:23.956+00:00</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="4443" longaddress="yes" />
+        <number>4443</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="GN #444D" fileName="GN__444D.xml" roadNumber="444D" roadName="Great Northern" mfg="Kato" owner="Iain Foulds" model="EMD F7A" dccAddress="4444" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-12-31T22:35:23.956+00:00</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="4444" longaddress="yes" />
+        <number>4444</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-12-31T21:45:29.361+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>40</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #474D" fileName="GN__474D.xml" roadNumber="474D" roadName="Great Northern" mfg="Intermountain" owner="Iain Foulds" model="EMD F7A" dccAddress="4744" comment="" developerID="-1" manufacturerID="151" productID="33554605" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-03T23:44:02.417+00:00</dateUpdated>
+      <decoder model="LokPilot 5 Micro Next18 DCC" family="ESU LokPilot 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="4744" longaddress="yes" />
+        <number>4744</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-03T23:36:57.650+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>194</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #510" fileName="GN__510.xml" roadNumber="510" roadName="Great Northern" mfg="Broadway Limited (Lowell Smith)" owner="Iain Foulds" model="EMD E7A" dccAddress="510" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-26T01:00:20.567+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="510" longaddress="yes" />
+        <number>510</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-26T00:52:34.919+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>81</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #512" fileName="GN__512.xml" roadNumber="512" roadName="Great Northern" mfg="Broadway Limited (Lowell Smith)" owner="Iain Foulds" model="EMD E7A" dccAddress="512" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-12-21T18:10:53.650+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="512" longaddress="yes" />
+        <number>512</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-12-21T18:11:55.003+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>227</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="GN #582" fileName="GN__582.xml" roadNumber="582" roadName="Great Northern" mfg="Atlas" owner="Iain Foulds" model="EMD SD9" dccAddress="582" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.631+00:00</dateUpdated>
+      <decoder model="DN163A0" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="582" longaddress="yes" />
+        <number>582</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Great Northern</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="MILW #130" fileName="MILW__130.xml" roadNumber="130" roadName="Milwaukee Road" mfg="Kato" owner="Iain Foulds" model="EMD SD40-2" dccAddress="130" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-25T22:08:07.061+00:00</dateUpdated>
+      <decoder model="DN147K1C" family="Economy Series 7 with FX3, silent" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="130" longaddress="yes" />
+        <number>130</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Milwaukee Road</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="MILW #510" fileName="MILW__510.xml" roadNumber="510" roadName="Milwaukee Road" mfg="Atlas" owner="Iain Foulds" model="SD7" dccAddress="510" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T03:23:27.798+00:00</dateUpdated>
+      <decoder model="DN163A4" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="510" longaddress="yes" />
+        <number>510</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-26T00:37:33.064+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Milwaukee Road</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="MILW #803" fileName="MILW__803.xml" roadNumber="803" roadName="Milwaukee Road" mfg="Kato " owner="Iain Foulds" model="EMD SD40-2" dccAddress="30" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-25T21:42:48.612+00:00</dateUpdated>
+      <decoder model="DN147K1C" family="Economy Series 7 with FX3, silent" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="30" longaddress="no" />
+        <number>30</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-24T01:49:39.325+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>39</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Milwaukee Road</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="MILW #95A" fileName="MILW__95A.xml" roadNumber="95A" roadName="Milwaukee Road" mfg="Kato" owner="Iain Foulds" model="EMD F7A" dccAddress="951" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.631+00:00</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="951" longaddress="yes" />
+        <number>951</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-10-26T17:10:51.304+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>99</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Milwaukee Road</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="MILW #95B" fileName="MILW__95B.xml" roadNumber="95B" roadName="Milwaukee Road" mfg="Kato" owner="Iain Foulds" model="EMD F7B" dccAddress="952" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.631+00:00</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="952" longaddress="yes" />
+        <number>952</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-10-26T17:14:43.500+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>214</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Milwaukee Road</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="MILW #95C" fileName="MILW__95C.xml" roadNumber="95C" roadName="Milwaukee Road" mfg="Kato" owner="Iain Foulds" model="EMD F7A" dccAddress="953" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.631+00:00</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="953" longaddress="yes" />
+        <number>953</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-10-26T17:16:14.135+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>59</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Milwaukee Road</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="MILW #96A" fileName="MILW__96A.xml" roadNumber="96A" roadName="Milwaukee Road" mfg="Kato" owner="Iain Foulds" model="EMD F7A" dccAddress="961" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-06T03:24:01.443+00:00</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="961" longaddress="yes" />
+        <number>961</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-06T02:43:12.332+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>47</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Milwaukee Road</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="MILW #96B" fileName="MILW__96B.xml" roadNumber="96B" roadName="Milwaukee Road" mfg="Kato" owner="Iain Foulds" model="EMD F7B" dccAddress="962" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-06T03:22:20.238+00:00</dateUpdated>
+      <decoder model="DN167K0B" family="Economy Series 7 with FX3, silent" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="962" longaddress="yes" />
+        <number>962</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-06T02:42:12.923+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>29</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Milwaukee Road</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="MILW #96C" fileName="MILW__96C.xml" roadNumber="96C" roadName="Milwaukee Road" mfg="Kato" owner="Iain Foulds" model="EMD F7A" dccAddress="963" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-06T03:23:19.287+00:00</dateUpdated>
+      <decoder model="DN167K0B" family="Economy Series 7 with FX3, silent" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="963" longaddress="yes" />
+        <number>963</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-06T03:14:22.255+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>46</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Milwaukee Road</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="NP #6012C" fileName="NP__6012C.xml" roadNumber="6012C" roadName="Northern Pacific" mfg="Kato" owner="Iain Foulds" model="EMD F7B" dccAddress="6123" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.631+00:00</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6123" longaddress="yes" />
+        <number>6123</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-10-26T17:00:48.713+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>108</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Northern Pacific</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="NP #6012D" fileName="NP__6012D.xml" roadNumber="6012D" roadName="Northern Pacific" mfg="Kato" owner="Iain Foulds" model="EMD F7A" dccAddress="6124" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.632+00:00</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6124" longaddress="yes" />
+        <number>6124</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Northern Pacific</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="NP #6511C" fileName="NP__6511C.xml" roadNumber="6511C" roadName="Northern Pacific" mfg="Intermountain" owner="Iain Foulds" model="EMD F7A" dccAddress="6511" comment="" developerID="-1" manufacturerID="151" productID="33554590" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:48:20.461+00:00</dateUpdated>
+      <decoder model="LokSound 5 micro DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="6511" longaddress="yes" />
+        <number>6511</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-11-04T02:54:46.096+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>19</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Northern Pacific</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="NP #6512B" fileName="NP__6512B.xml" roadNumber="6512B" roadName="Northern Pacific" mfg="Intermountain" owner="Iain Foulds" model="EMD F7B" dccAddress="6512" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.632+00:00</dateUpdated>
+      <decoder model="DN166I1C" family="Series 6 with FX3, silent, improved BEMF" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6512" longaddress="yes" />
+        <number>6512</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-10-26T17:23:59.268+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>81</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Northern Pacific</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="NP #6600" fileName="NP__6600.xml" roadNumber="6600" roadName="Northern Pacific" mfg="Intermountain" owner="Iain Foulds" model="EMD F7A" dccAddress="6600" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.632+00:00</dateUpdated>
+      <decoder model="DN166I1C" family="Series 6 with FX3, silent, improved BEMF" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6600" longaddress="yes" />
+        <number>6600</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-10-26T17:22:20.774+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>112</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Northern Pacific</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="NP #858" fileName="NP__858.xml" roadNumber="858" roadName="Northern Pacific" mfg="Atlas" owner="Iain Foulds" model="Alco RS-3" dccAddress="858" comment="" developerID="-1" manufacturerID="153" productID="22" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.632+00:00</dateUpdated>
+      <decoder model="CN" family="Sep 2018" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="858" longaddress="yes" />
+        <number>858</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Northern Pacific</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="SP&amp;S #151" fileName="Spokane__Portland__and_Seattle.xml" roadNumber="151" roadName="Spokane, Portland &amp; Seattle" mfg="Atlas" owner="Iain Foulds" model="GP-9" dccAddress="151" comment="" developerID="-1" manufacturerID="151" productID="16777404" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-25T23:15:36.337+00:00</dateUpdated>
+      <decoder model="LokSound 5 nano DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="151" longaddress="yes" />
+        <number>151</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Spokane, Portland &amp; Seattle</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="SP&amp;S #153" fileName="SP_S__153.xml" roadNumber="153" roadName="Spokane, Portland &amp; Seattle" mfg="Atlas" owner="Iain Foulds" model="GP-9" dccAddress="153" comment="" developerID="-1" manufacturerID="151" productID="16777404" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-27T01:40:50.937+00:00</dateUpdated>
+      <decoder model="LokSound 5 nano DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="153" longaddress="yes" />
+        <number>153</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-10-27T01:38:33.594+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>79</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Spokane, Portland &amp; Seattle</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="SP&amp;S #42" fileName="SP_S__42.xml" roadNumber="42" roadName="Spokane, Portland &amp; Seattle" mfg="Broadway Limited (Lowell Smith)" owner="Iain Foulds" model="EMD NW2" dccAddress="42" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T18:43:25.632+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="42" longaddress="no" />
+        <number>42</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-10-26T18:18:10.411+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>519</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Spokane, Portland &amp; Seattle</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="SP&amp;S #750" fileName="SP_S__750.xml" roadNumber="750" roadName="Spokane, Portland &amp; Seattle" mfg="Broadway Limited (Lowell Smith)" owner="Iain Foulds" model="EMD E7A" dccAddress="750" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-11-26T01:00:53.712+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="750" longaddress="yes" />
+        <number>750</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2025-12-21T18:00:55.116+00:00</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>731</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:Spokane, Portland &amp; Seattle</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="SP&amp;S #802" fileName="SP_S__802.xml" roadNumber="802" roadName="Spokane, Portland &amp; Seattle" mfg="Broadway Limited (Lowell Smith)" owner="Iain Foulds" model="EMD F7A" dccAddress="802" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T03:23:27.798+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="802" longaddress="yes" />
+        <number>802</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Spokane, Portland &amp; Seattle</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="SP&amp;S #803" fileName="SP_S__803.xml" roadNumber="803" roadName="Spokane, Portland &amp; Seattle" mfg="Broadway Limited (Lowell Smith)" owner="Iain Foulds" model="EMD F7A" dccAddress="803" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T03:02:45.110+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="803" longaddress="yes" />
+        <number>803</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Spokane, Portland &amp; Seattle</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="SP&amp;S 509" fileName="SP_S_509.xml" roadNumber="509" roadName="Spokane, Portland &amp; Seattle" mfg="Broadway Limited" owner="Iain Foulds" model="USRA Heavy Mikado" dccAddress="509" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2025-10-26T03:47:25.709+00:00</dateUpdated>
+      <decoder model="Steam" family="Paragon 3" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="509" longaddress="yes" />
+        <number>509</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Whistle</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Air Pump</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Blow Down/Chuff Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Water Fill/Chuff Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Shovel Coal</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Water Injector</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Passenger Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Freight Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Whistle</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Spokane, Portland &amp; Seattle</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+  </roster>
+  <rosterGroup>
+    <group>Great Northern</group>
+    <group>Milwaukee Road</group>
+    <group>Spokane, Portland &amp; Seattle</group>
+    <group>Northern Pacific</group>
+  </rosterGroup>
+</roster-config>
