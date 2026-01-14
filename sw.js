@@ -38,3 +38,18 @@ self.addEventListener('fetch', (event) => {
     })
   );
 });
+
+self.addEventListener('fetch', (event) => {
+  // If we are requesting XML data, try Network First
+  if (event.request.url.includes('.xml')) {
+    event.respondWith(
+      fetch(event.request)
+        .catch(() => caches.match(event.request))
+    );
+  } else {
+    // For images/css/js, use Cache First
+    event.respondWith(
+      caches.match(event.request).then((res) => res || fetch(event.request))
+    );
+  }
+});

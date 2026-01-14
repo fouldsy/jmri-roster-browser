@@ -2,7 +2,7 @@ const db = new Dexie("LocoRosterDB");
 db.version(1).stores({ photos: 'id' });
 
 let locomotiveFiles = new Map();
-const ROSTER_PATH = './roster/'; 
+const ROSTER_PATH = 'roster/'; 
 
 window.addEventListener('DOMContentLoaded', init);
 
@@ -10,27 +10,40 @@ async function init() {
     const status = document.getElementById('status');
     const updatedEl = document.getElementById('lastUpdated');
     
+    status.innerText = "Checking Connection...";
+
     try {
-        const response = await fetch(`${ROSTER_PATH}roster.xml`);
-        if (!response.ok) throw new Error("roster.xml not found");
+        // Try to fetch roster.xml with a cache-buster to force the newest version
+        const response = await fetch(`${ROSTER_PATH}roster.xml?t=${Date.now()}`);
         
-        // Extract "Last Modified" from GitHub headers
+        if (!response.ok) {
+            status.innerText = "Error: roster.xml not found";
+            console.error("Path attempted:", `${ROSTER_PATH}roster.xml`);
+            return;
+        }
+        
         const lastMod = response.headers.get('Last-Modified');
         if (lastMod) {
             const date = new Date(lastMod);
             updatedEl.innerText = `Updated: ${date.toLocaleDateString()} ${date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}`;
         }
 
-        const rosterText = await rosterText = await response.text();
+        const rosterText = await response.text();
         const parser = new DOMParser();
         const xml = parser.parseFromString(rosterText, "text/xml");
         const entries = xml.querySelectorAll("locomotive");
 
-        status.innerText = "Syncing...";
+        if (entries.length === 0) {
+            status.innerText = "Roster empty or invalid XML";
+            return;
+        }
+
+        status.innerText = `Syncing ${entries.length} locos...`;
+
         const fetchPromises = Array.from(entries).map(async (entry) => {
             const fileName = entry.getAttribute('fileName');
             try {
-                const locoRes = await fetch(`${ROSTER_PATH}${fileName}`);
+                const locoRes = await fetch(`${ROSTER_PATH}${fileName}?t=${Date.now()}`);
                 if (locoRes.ok) {
                     locomotiveFiles.set(fileName, await locoRes.text());
                 }
@@ -42,8 +55,8 @@ async function init() {
         renderRoster(rosterText);
 
     } catch (err) {
-        status.innerText = "Offline/Error";
-        console.error(err);
+        status.innerText = "Connection Failed";
+        console.error("Fetch Error:", err);
     }
 }
 
